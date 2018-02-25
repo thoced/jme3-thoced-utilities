@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jmonkeyengine:jme3-terrain:3.2.1-stable">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-terrain/3.2.1-stable/6d94054658b306049c9e1e77f1a65b1b1aed012a/jme3-terrain-3.2.1-stable.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-terrain/3.2.1-stable/fee66187fda5f0f5be0c3283b22cf91ae9f2667e/jme3-terrain-3.2.1-stable-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

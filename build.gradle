@@ -1,0 +1,25 @@
+group 'jme3-thoced-utilities'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+def jme3 = [v: '3.2.1-stable', g: 'org.jmonkeyengine']
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url "http://dl.bintray.com/jmonkeyengine/org.jmonkeyengine" }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "${jme3.g}:jme3-bullet-native:${jme3.v}"
+    compile "${jme3.g}:jme3-bullet:${jme3.v}"
+    compile "${jme3.g}:jme3-core:${jme3.v}"
+    compile "${jme3.g}:jme3-effects:${jme3.v}"
+    compile "${jme3.g}:jme3-terrain:${jme3.v}"
+    runtime "${jme3.g}:jme3-desktop:${jme3.v}"
+    runtime "${jme3.g}:jme3-jogg:${jme3.v}"
+    runtime "${jme3.g}:jme3-lwjgl3:${jme3.v}"
+    runtime "${jme3.g}:jme3-plugins:${jme3.v}"
+}
