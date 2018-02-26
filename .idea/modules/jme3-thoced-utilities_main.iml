@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="jme3-thoced-utilities:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="jme3-thoced-utilities" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="jme3-thoced-utilities:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="jme3-thoced-utilities" external.system.module.type="sourceSet" external.system.module.version="0.1" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../out/production/classes" />
     <exclude-output />
@@ -10,11 +10,15 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.jmonkeyengine:jme3-bullet-native:3.2.1-stable" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.JavaSaBr:jmonkeybuilder-extension:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jmonkeyengine:jme3-bullet:3.2.1-stable" level="project" />
-    <orderEntry type="library" name="Gradle: org.jmonkeyengine:jme3-effects:3.2.1-stable" level="project" />
     <orderEntry type="library" name="Gradle: org.jmonkeyengine:jme3-terrain:3.2.1-stable" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.JavaSaBr:tonegodemitter:2.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jmonkeyengine:jme3-effects:3.2.1-stable" level="project" />
     <orderEntry type="library" name="Gradle: org.jmonkeyengine:jme3-core:3.2.1-stable" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.JavaSaBr:RLib:6.8.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-lwjgl3:3.2.1-stable" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:15.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-desktop:3.2.1-stable" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-jogg:3.2.1-stable" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-plugins:3.2.1-stable" level="project" />

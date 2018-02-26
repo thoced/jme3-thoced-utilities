@@ -1,5 +1,5 @@
 group 'jme3-thoced-utilities'
-version '1.0-SNAPSHOT'
+version '0.1'
 
 apply plugin: 'java'
 
@@ -9,6 +9,7 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
     maven { url "http://dl.bintray.com/jmonkeyengine/org.jmonkeyengine" }
+    maven { url "https://jitpack.io"}
 }
 
 dependencies {
@@ -18,8 +19,12 @@ dependencies {
     compile "${jme3.g}:jme3-core:${jme3.v}"
     compile "${jme3.g}:jme3-effects:${jme3.v}"
     compile "${jme3.g}:jme3-terrain:${jme3.v}"
+    compile 'com.github.JavaSaBr:jmonkeybuilder-extension:2.1.1'
+    compile 'com.github.JavaSaBr:tonegodemitter:2.4.1'
+    compile 'com.github.JavaSaBr:RLib:6.8.0'
     runtime "${jme3.g}:jme3-desktop:${jme3.v}"
     runtime "${jme3.g}:jme3-jogg:${jme3.v}"
     runtime "${jme3.g}:jme3-lwjgl3:${jme3.v}"
     runtime "${jme3.g}:jme3-plugins:${jme3.v}"
+
 }
