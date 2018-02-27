@@ -6,3 +6,4 @@ Custom RigidBodyControl - permet de déplacer des objets physiques cinematiques 
 
 ![Image Node] (https://github.com/thoced/jme3-thoced-utilities/blob/master/MovableRigidBodyControl_ima01.jpg)
 
+![Image Add](https://github.com/thoced/jm3-libraries-tools-game/blob/master/src/images/blender-add-empty.png)
