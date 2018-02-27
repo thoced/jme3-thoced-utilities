@@ -4,5 +4,5 @@
 
 Custom RigidBodyControl - permet de déplacer des objets physiques cinematiques entre deux positions dans l'espace.
 
-https://github.com/thoced/jme3-thoced-utilities/blob/master/MovableRigidBodyControl_ima01.jpg
+![Node]https://github.com/thoced/jme3-thoced-utilities/blob/master/MovableRigidBodyControl_ima01.jpg
 
